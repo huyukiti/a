@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+
 <head>
-<meta charset="utf-8">
-<title>TOPPAGE</title>
+  <meta charset="utf-8">
+  <title>TOPPAGE</title>
 </head>
 
 <style>
@@ -13,175 +14,286 @@ Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
+  html,
+  body,
+  div,
+  span,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  abbr,
+  address,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  samp,
+  small,
+  strong,
+  sub,
+  sup,
+  var,
+  b,
+  i,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
 
-body {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-}
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-    display:block;
-}
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    display: block;
+  }
 
-nav ul {
-    list-style:none;
-}
+  nav ul {
+    list-style: none;
+  }
 
-blockquote, q {
-    quotes:none;
-}
+  blockquote,
+  q {
+    quotes: none;
+  }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
-}
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: '';
+    content: none;
+  }
 
-a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
+  a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
 
-/* change colours to suit your needs */
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
-}
+  /* change colours to suit your needs */
+  ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+  }
 
-/* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000;
-    font-style:italic;
-    font-weight:bold;
-}
+  /* change colours to suit your needs */
+  mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+  }
 
-del {
+  del {
     text-decoration: line-through;
-}
+  }
 
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
+  abbr[title],
+  dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+  }
 
-table {
-    border-collapse:collapse;
-    border-spacing:0;
-}
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
 
-/* change border colour to suit your needs */
-hr {
-    display:block;
-    height:1px;
-    border:0;  
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
+  /* change border colour to suit your needs */
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+  }
 
-input, select {
-    vertical-align:middle;
-}
-nav {
-  background: #343A40;
-  text-align:center;
-}
-.innar {
-  width: 1110px;
-  margin: 0 auto;
-  position: relative;
-}
-header{
-  text-align: right;
-  height: 100px;
-}
-header h1{
-  top: 7px;
-  position: absolute;
-}
-header h1 img{
-  width: 280px;
-}
-header ul{
-  list-style: none;
-}
-header ul li{
-  display: inline-block;
-  line-height: 1.5;
-}
-header ul li h2{
-  font-size: 13px;
-  font-weight: normal;
-}
-header ul li p{
-  font-size: 28px;
-}
-header ul li a{
-  font-size: 22px;
-       color: #fff;
-       text-decoration: none;
-}
-nav ul {
-  width: 1110px;
-  margin: 0 auto;
-  background-color: #ccc;
-}
-nav ul li {
-  color: rgba(255,255,255,.5);
-  display: inline-block;
-  padding: 0 35px;
-  line-height: 55px;
-}
-.Key-visual {
-  height: 600px;
-  background-color: yellow;
-}
-.Key-visual_content {
-  width: 560px;
-  height: 300px;
-  background-color: white;
-}
+  input,
+  select {
+    vertical-align: middle;
+  }
+
+  nav {
+    background: #343A40;
+    text-align: center;
+  }
+
+  .innar {
+    width: 1110px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  header {
+    text-align: right;
+    height: 100px;
+  }
+
+  header h1 {
+    top: 7px;
+    position: absolute;
+  }
+
+  header h1 img {
+    width: 280px;
+  }
+
+  header ul {
+    padding: 20px 0;
+    display: inline-block;
+    list-style: none;
+  }
+
+  header ul li {
+    vertical-align: middle;
+    color: #343A40;
+    display: inline-block;
+    text-align: left;
+    line-height: 1.3;
+  }
+
+  header ul li:hover {
+    background: #5a6248;
+  }
+
+  header ul li:first-child {
+    margin-right: 20px;
+  }
+
+  header ul li h2 {
+    font-size: 13px;
+    font-weight: normal;
+  }
+
+  header ul li p {
+    font-size: 32px;
+  }
+
+  header ul li a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav ul {
+    width: 1110px;
+    margin: 0 auto;
+    background-color: #ccc;
+  }
+
+  nav ul li {
+    color: rgba(255, 255, 255, .5);
+    display: inline-block;
+    padding: 0 35px;
+    line-height: 55px;
+  }
+
+  nav ul li:hover {
+    color: rgba(255, 255, 255, .75);
+  }
+
+  .Key-visual {
+    height: 600px;
+    background-color: yellow;
+    background-image: url(image/top-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .Key-visual_content {
+    width: 560px;
+    height: 300px;
+    border-top: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px 15px;
+    box-sizing: border-box;
+
+  }
 </style>
 
 <html>
-<body> 
- <header>
-  <div class="innar">
-  <h1><a href=""></a><img src="image/template-logo01.png" alt="サイトタイトルロゴ"></h1>
+
+<body>
+  <header>
+    <div class="innar">
+      <h1><a href=""></a><img src="image/template-logo01.png" alt="サイトタイトルロゴ"></h1>
 
 
-    <ul style="display: inline-block;">
-     <li>
-      <h2>お電話でのご予約はこちら</h2>
-　　  <p>03-1234-5678</p>
-     </li>
-     <li>
-       <a href="#" style="
+      <ul style="display: inline-block;">
+        <li>
+          <h2>お電話でのご予約はこちら</h2>
+          　　 <p>03-1234-5678</p>
+        </li>
+        <li>
+          <a href="#" style="
        font-size: 22px;
        padding: 15px;
        color: #fff;
@@ -190,37 +302,42 @@ nav ul li {
        display:inline-block;
        line-height: 48px;
        border-radius: 5px;
-      
        ">WEB予約</a>
-    </li>
-    </ul>
-  </div>
-</header>
-
-<nav>
-    <ul>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">MENU</a></li>
-    </ul>
-</nav>
-
-<div>
-    <div class="Key-visual">
-     <div class="innar">
-      <div class="Key-visual_content">
-     <h1>Hello, world!</h1>
-      <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> 
-     </div>
+        </li>
+      </ul>
     </div>
-　</div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">MENU</a></li>
+      <li><a href="#">MENU</a></li>
+      <li><a href="#">MENU</a></li>
+      <li><a href="#">MENU</a></li>
+      <li><a href="#">MENU</a></li>
+      <li><a href="#">MENU</a></li>
+      <li><a href="#">MENU</a></li>
+      <li><a href="#">MENU</a></li>
+      <li><a href="#">MENU</a></li>
+    </ul>
+  </nav>
+
+  <div>
+    <div class="Key-visual">
+      <div class="innar">
+        <div class="Key-visual_content">
+          <h1 style="
+      font-size: 55px;
+      font-weight: 300;
+      ">Hello, world!</h1>
+          <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured
+            content or information.</p>
+
+          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        </div>
+      </div>
+      　
+    </div>
 </body>
+
 </html>
